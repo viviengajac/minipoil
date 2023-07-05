@@ -1,0 +1,14 @@
+20230405:11:16:12	Erreur PHP 1
+20230405:11:17:00	Erreur PHP 1
+20230405:11:17:01	Erreur: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test_comptines`.`interv`, CONSTRAINT `fk_interv__lieu` FOREIGN KEY (`id_lieu`) REFERENCES `lieu` (`id_lieu`))§sql=(exec AZlieuMaj @etat@,@id_lieu@,@nom_lieu@,@ad_lieu@,@id_ville@,@lat_lieu@,@lon_lieu@,@id_type_lieu@)§donnees=({t:1[{c:8[{etat:2}{id_lieu:1}{nom_lieu:2}{ad_lieu:2}{id_ville:1}{lat_lieu:5}{lon_lieu:5}{id_type_lieu:1}],l:1[{v:7[{1:1}{2:Magali}{4:11}{5:43.45}{6:5.35}{7:1}{0:D}]}]}]})§pile=(#0 G:\wamp64\www\serveur_de_bd\FctCommunes.php(1382): PDO->exec('call AZlieuMaj(...')
+#1 G:\wamp64\www\serveur_de_bd\FctCommunes.php(1516): AccesBd->PreparerExecSql('call AZlieuMaj(...')
+#2 G:\wamp64\www\serveur_de_bd\EcrireTable.php(52): AccesBd->EcrireUneTable('exec AZlieuMaj ...', '{t:1[{c:8[{etat...')
+#3 {main})
+20230405:11:17:29	Erreur PHP 1
+20230405:11:17:29	Erreur: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`test_comptines`.`interv`, CONSTRAINT `fk_interv__lieu` FOREIGN KEY (`id_lieu`) REFERENCES `lieu` (`id_lieu`))§sql=(exec AZlieuMaj @etat@,@id_lieu@,@nom_lieu@,@ad_lieu@,@id_ville@,@lat_lieu@,@lon_lieu@,@id_type_lieu@)§donnees=({t:1[{c:8[{etat:2}{id_lieu:1}{nom_lieu:2}{ad_lieu:2}{id_ville:1}{lat_lieu:5}{lon_lieu:5}{id_type_lieu:1}],l:1[{v:7[{1:1}{2:Magali}{4:11}{5:43.45}{6:5.35}{7:1}{0:D}]}]}]})§pile=(#0 G:\wamp64\www\serveur_de_bd\FctCommunes.php(1382): PDO->exec('call AZlieuMaj(...')
+#1 G:\wamp64\www\serveur_de_bd\FctCommunes.php(1516): AccesBd->PreparerExecSql('call AZlieuMaj(...')
+#2 G:\wamp64\www\serveur_de_bd\EcrireTable.php(52): AccesBd->EcrireUneTable('exec AZlieuMaj ...', '{t:1[{c:8[{etat...')
+#3 {main})
+20230405:11:22:51	Erreur PHP 1
+20230405:11:23:06	Erreur PHP 1
+20230405:11:23:25	Erreur PHP 1

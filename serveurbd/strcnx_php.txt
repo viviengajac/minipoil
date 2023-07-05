@@ -1,0 +1,7 @@
+mysql:host=localhost;dbname=minipoil;charset=utf8|root||test_comptines|PDO|mysql|localhost|
+sqlsrv:Server=BERTRAND-PC\BD_MSSQL;Database=gestion_pm|pericles_sa|pericles_sa|gestion_pm|PDO|mssql|BERTRAND-PC\BD_MSSQL|
+sqlsrv:server=BERTRAND-PC\BD_MSSQL;pericles_sa;pericles_sa;gestion_pm;PDO;sqlsrv;BERTRAND-PC\BD_MSSQL|
+BERTRAND-PC\BD_MSSQL;pericles_sa;pericles_sa;gestion_pm;MSSQL;mssql;BERTRAND-PC\BD_MSSQL|
+BERTRAND-PC\BD_MSSQL;pericles_sa;pericles_sa;gestion_pm;ODBC13;mssql;BERTRAND-PC\BD_MSSQL|
+BERTRAND-PC\BD_MSSQL;pericles_sa;pericles_sa;gestion_pm_bis;PDO;mssql;BERTRAND-PC\BD_MSSQL|
+mysql:host=localhost;root;;test_comptines;PDO;mysql;localhost|
